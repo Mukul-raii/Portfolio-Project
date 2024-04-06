@@ -1,0 +1,50 @@
+.Navbar {
+  width: 100%;
+  background-color: hsl(239.43,49.76%,41.37%);;
+
+}
+
+.Navbar-Component {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+.Navbar-Component-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.Navbar-Component-a > a {
+  outline: none;
+  text-decoration: none;
+  font-family: "Kanit" sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.contactme {
+  margin: 20px;
+}
+
+.contactme > a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: hsl(32, 100%, 50%);
+}
+
+
+
+
+
+
+

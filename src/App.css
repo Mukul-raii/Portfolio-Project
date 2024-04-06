@@ -1,0 +1,13 @@
+
+.navbarStyle{
+height: 40px;
+
+}
+
+.homeStyle{
+
+    height: calc(100vh-40px);
+
+}
+
+
