@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./Home.module.css";
-import  { useParallax } from 'react-scroll-parallax';
+
+import { Parallax } from "react-scroll-parallax";
+//import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const headingText = "I AM A WEB DEVELOPER"; // The text you want to type out for the heading
 const nameText = "MUKUL RAI"; // The text you want to type out for the name
@@ -21,7 +23,6 @@ function typeWriter(text, speed, element) {
   }, speed);
 }
 
-// Call the function with your desired parameters for heading and name
 window.onload = function () {
   const headingElement = document.getElementById("typing-heading");
   const nameElement = document.getElementById("typing-name");
@@ -31,10 +32,9 @@ window.onload = function () {
   }, headingText.length * typingSpeed + 500); // Wait for heading to finish typing before typing the name
 };
 
-function Home() {
-
+const Home = () => {
   return (
-    <div  id="Home" className={styles.Home}>
+    <div id="Home" className={styles.Home}>
       <div className={styles["Home-components"]}>
         <div className={styles["H1div"]}>
           <h1 id="typing-heading" className={styles["HomeH1"]}></h1>
@@ -52,6 +52,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

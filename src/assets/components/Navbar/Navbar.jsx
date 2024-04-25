@@ -11,13 +11,12 @@ function Navbar() {
 
         <a href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="">Projects</a>
+        <a href="#Project">Projects</a>
         </div>
 
         <div  className={styles["contactme"]}>
-         
-          <a href="">Contact me</a>  
-    </div>
+          <a href="https://www.linkedin.com/in/mukul-rai-3546822564654687786786/">Contact me</a>  
+        </div>
       </div>
       
     </div>

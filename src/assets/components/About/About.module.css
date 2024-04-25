@@ -10,14 +10,16 @@
 
 
 .Main-About{
-  height: 788.75px;
+  height: 100vh;
   background-color: hsl(32, 100%, 50%);
-margin-top: 0;
+  
+
+  
 
 
 }
 .About{
- padding-top: 100px;
+  padding-top: 100px;
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
@@ -61,20 +63,22 @@ h1{
 }
 
 p{
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-weight: 300;
 }
 
+
+
 .logo-main{
- 
-padding-top: 50px;
+  
+  padding-top: 50px;
   overflow-x: hidden;
 
 }
 
 .logo-container {
-  padding-top: 50px;
+  
   width:max-content;
   display: flex;
   animation: scroll 10s linear infinite;

@@ -17,18 +17,21 @@ function About() {
 
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non,
-              iste exercitationem maiores cupiditate tenetur, laborum totam odio
-              sint, similique nobis nesciunt voluptates quo dignissimos corporis
-              voluptatibus. Consequuntur, ab voluptas! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Esse non, iste exercitationem
-              maiores cupiditate tenetur, laborum totam odio sint, similique
-              nobis nesciunt voluptates quo dignissimos corporis voluptatibus.
-              Consequuntur, ab voluptas!
+          
+            <p> 😄 Pronouns: He/Him</p>
+            <p> 👋 Hi, I’m @Mukul-raii</p>
+            <p> 👀 I’m interested in coding, machine learning, and open source projects.</p>
+            <p> 👀 I’m interested in coding, Web Devlopment,machine learning, and open source projects.</p>
+            <p> 🌱 I’m currently learning new technologies and frameworks to enhance my development skills.</p>
+            <p> 💞️ I’m looking to collaborate on innovative projects and contribute to impactful initiatives.</p>
+            <p> 📫 How to reach me: Feel free to connect with me via email at mukurai2004@gmail.com or through my LinkedIn profile.</p>
+
             </p>
           </div>
         </div>
       </div>
+
+
 
       <div className={styles["logo-main"]}>
         <Draggable axis="x">
@@ -65,14 +68,21 @@ function About() {
               src="/images/jss-removebg-preview.png"
               alt=""
             />
-            <img
+                 <img
               className={styles["logo"]}
               src="/images/Mongo-removebg-preview.png"
               alt=""
             />
+       
+                 <img
+              className={styles["logo"]}
+              src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+              alt=""
+            />
+       
             <img
               className={styles["logo"]}
-              src="/images/express-removebg-preview.png"
+              src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
               alt=""
             />
             <img
@@ -80,7 +90,7 @@ function About() {
               src="/images/nodejs-removebg-preview.png"
               alt=""
             />
-            <img
+             <img
               className={styles["logo"]}
               src="/images/Java-removebg-preview.png"
               alt=""
@@ -100,14 +110,21 @@ function About() {
               src="/images/jss-removebg-preview.png"
               alt=""
             />
-            <img
+                 <img
               className={styles["logo"]}
               src="/images/Mongo-removebg-preview.png"
               alt=""
             />
+       
+                 <img
+              className={styles["logo"]}
+              src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+              alt=""
+            />
+       
             <img
               className={styles["logo"]}
-              src="/images/express-removebg-preview.png"
+              src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
               alt=""
             />
             <img
@@ -115,6 +132,7 @@ function About() {
               src="/images/nodejs-removebg-preview.png"
               alt=""
             />
+            
           </div>
         </Draggable>
       </div>

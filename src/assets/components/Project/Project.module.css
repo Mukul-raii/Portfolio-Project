@@ -1,0 +1,73 @@
+.Project {
+  height: 94vh;
+  width: 100vw;
+  background-color: hsl(32, 100%, 50%);
+}
+
+.Project-Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 0px;
+}
+.projects-components {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.newProject {
+  position: relative;
+  display: inline-block; /* Ensures container size fits content */
+  margin: 20px;
+  margin-top: 70px;
+  background-color: rgb(255, 255, 255);
+  height: 291px;
+  width: 467px;
+  border-radius: 10px;
+}
+
+.newProject > img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width and height */
+  text-align: center;
+}
+
+.text-overlay > h5 {
+  font-size: 35px;
+  color: rgb(255, 0, 0);
+  font-weight: 500;
+}
+
+.text-overlay > p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.links > a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+}

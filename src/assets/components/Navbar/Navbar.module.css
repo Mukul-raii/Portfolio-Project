@@ -1,5 +1,7 @@
+
+
 .Navbar {
-  width: 100%;
+  width: 100vw;
   background-color: hsl(239.43,49.76%,41.37%);;
 
 }
@@ -41,10 +43,5 @@
   border-radius: 10px;
   background-color: hsl(32, 100%, 50%);
 }
-
-
-
-
-
 
 
