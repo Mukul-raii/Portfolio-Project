@@ -15,7 +15,7 @@ function Navbar() {
         </div>
 
         <div  className={styles["contactme"]}>
-          <a href="https://www.linkedin.com/in/mukul-rai-3546822564654687786786/">Contact me</a>  
+          <button className={styles["button2"]} href="https://www.linkedin.com/in/mukul-rai-3546822564654687786786/"> Contact me</button>
         </div>
       </div>
       
