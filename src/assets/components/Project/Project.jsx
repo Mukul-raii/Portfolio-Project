@@ -37,7 +37,7 @@ function Project() {
             </div>
             <div className="flex space-x-4 mb-4">
               <a href="https://github.com/Mukul-raii/Shop-management" className="text-blue-500 hover:underline">GitHub</a>
-              <a href="https://shop-management-eight.vercel.app/" className="text-blue-500 hover:underline">Live view</a>
+              <a href="https://shop-management-alpha.vercel.app/" className="text-blue-500 hover:underline">Live view</a>
             </div>
             
           </div>
