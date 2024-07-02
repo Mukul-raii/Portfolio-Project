@@ -12,7 +12,7 @@ function About() {
 
         <div className={styles["Content"]}>
           <div className={styles["h1-content"]}>
-            <h1> About me</h1>
+            <h1 className={styles["h1-about"]}> About me</h1>
           </div>
 
           <div>
